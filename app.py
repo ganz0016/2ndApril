@@ -12,6 +12,8 @@ model = {
 name=""
 flag=1
 
+os.environ["REPLICATE_API_TOKEN"]="787f515cb0624813736c11e7fefec66473394f02"
+
 app = Flask(__name__)
 
 @app.route("/",methods=["GET","POST"])
