@@ -4,7 +4,7 @@ import replicate
 import os
 import time
 
-palm.configure(api_key="AIzaSyCCT1K99BJ1JbLwhCE7qOcQ5KOZcPJ9ZZ4")
+palm.configure(api_key="AIzaSyCOBhgDi-GwHGSmS-p3PN-RYj3eslN-7W0")
 model = {
     "model": "models/chat-bison-001",
 }
